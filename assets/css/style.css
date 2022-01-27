@@ -1,4 +1,90 @@
+html{
+    scroll-behavior: auto !important;
+}
+
 .navbar{
     background-color: transparent;
-    position: absolute;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
 }
+
+/* .carousel{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+} */
+
+.navbar-brand{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#quienes-somos{
+    color: white;
+    background-color: black;
+}
+
+#Footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-label{
+    color: white;
+}
+
+#contacto {
+    background-color: black;
+}
+
+.card-title{
+    background-color: aqua;
+}
+
+.whoweare{
+    background-color: black;
+}
+
+#titlebody{
+    color: white;
+    text-align: center;
+}
+
+.card{
+    background-color: black;
+    color: white;
+}
+
+.card2{
+    background-color: aqua;
+}
+
+.cards{
+    background-color: black;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+footer{
+    background-color: aqua;
+    display: flex;
+    /* gap: 1200px; */
+    justify-content: space-between;
+}
+
+/* .carousel-inner img {
+    width: 100%;
+    max-height: 700px;
+}
+
+.carousel-inner{
+    height: 700px;
+} */
