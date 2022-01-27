@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
 	$("a").click(function(){
 		var smoothscr = this.hash
 
@@ -9,6 +9,15 @@ $(document).ready(function(){
 			800
 		)
 	})
+
+	$("#botonEnviar").click(function(){
+		alert("Mensaje enviado exitosamente")
+	})
+})
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
 // $(function(){
